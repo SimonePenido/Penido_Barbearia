@@ -1,0 +1,96 @@
+/* Define o estilo para o corpo do documento */
+body {
+    background-color: #FFFFFF; /* Cor de fundo branca */
+}
+
+/* Define o estilo para todas as imagens */
+img {
+    width: 190px; /* Largura fixa de 190 pixels para as imagens */
+}
+
+/* Define o estilo para todas as divisões (elementos <div>) */
+div {
+    width: 600px; /* Largura fixa de 600 pixels */
+    margin: 0 auto; /* Margens laterais automáticas para centralizar */
+    text-align: center; /* Alinhamento de texto centralizado */
+}
+
+/* Define o estilo para cabeçalhos de primeiro nível (elementos <h1>) */
+h1 {
+    font-size: 26px; /* Tamanho da fonte de 26 pixels */
+    font-family: Verdana; /* Tipo de fonte Verdana */
+    text-transform: uppercase; /* Transformação de texto em maiúsculas */
+    color: #595959; /* Cor do texto cinza */
+    padding: 12px; /* Preenchimento interno de 12 pixels */
+    border: 4px solid #567D8C; /* Borda sólida de 4 pixels com cor azulada */
+}
+
+/* Define o estilo para cabeçalhos de segundo nível (elementos <h2>) */
+h2 {
+    font-size: 20px; /* Tamanho da fonte de 20 pixels */
+    font-family: Verdana; /* Tipo de fonte Verdana */
+    color: #595959; /* Cor do texto cinza */
+    margin-top: 35px; /* Margem superior de 35 pixels */
+    margin-bottom: 35px; /* Margem inferior de 35 pixels */
+}
+
+/* Define o estilo para cabeçalhos de terceiro nível (elementos <h3>) */
+h3 {
+    font-size: 19px; /* Tamanho da fonte de 19 pixels */
+    font-family: Verdana; /* Tipo de fonte Verdana */
+    font-weight: normal; /* Peso da fonte normal */
+    color: #595959; /* Cor do texto cinza */
+    padding: 10px 0; /* Preenchimento interno vertical de 10 pixels e nenhum preenchimento horizontal */
+    margin-top: 30px; /* Margem superior de 30 pixels */
+    border-top: 2px solid #567D8C; /* Borda superior de 2 pixels com cor azulada */
+}
+
+/* Define o estilo para parágrafos (elementos <p>) */
+p {
+    font-size: 19px; /* Tamanho da fonte de 19 pixels */
+    font-family: Verdana; /* Tipo de fonte Verdana */
+    text-align: justify; /* Alinhamento justificado do texto */
+    line-height: 33px; /* Altura da linha de 33 pixels */
+    color: #616163; /* Cor do texto cinza-escuro */
+    margin-bottom: 36px; /* Margem inferior de 36 pixels */
+}
+
+/* Define o estilo para elementos <span> (texto em negrito) */
+span {
+    font-weight: bold; /* Texto em negrito */
+}
+
+/* Define o estilo para links (elementos <a>) */
+a {
+    font-size: 16px; /* Tamanho da fonte de 16 pixels */
+    font-family: Verdana; /* Tipo de fonte Verdana */
+    font-weight: bold; /* Texto em negrito */
+    text-decoration: none; /* Nenhum sublinhado */
+    padding: 1em; /* Preenchimento interno de 1em */
+    margin: 2em; /* Margem externa de 2em */
+    color: #F2F2F2; /* Cor do texto branca */
+    background-color: #25d266; /* Cor de fundo verde */
+    border-radius: 27px; /* Borda arredondada com raio de 27 pixels */
+    text-align: center; /* Alinhamento de texto centralizado */
+}
+
+/* Define o estilo para elementos com a classe .botao */
+.botao {
+    width: 600px; /* Largura fixa de 600 pixels */
+    margin: 0 auto; /* Margens laterais automáticas para centralizar */
+    text-align: center; /* Alinhamento de texto centralizado */
+    padding: .8em; /* Preenchimento interno de 0.8em */
+    margin-bottom: 3em; /* Margem inferior de 3em */
+}
+
+/* Define o estilo para o rodapé (elemento <footer>) */
+footer {
+    font-size: 1em; /* Tamanho da fonte de 1em */
+    font-style: italic; /* Texto em itálico */
+    text-align: center; /* Alinhamento de texto centralizado */
+    padding: .5em; /* Preenchimento interno de 0.5em */
+    background-color: #567D8C; /* Cor de fundo azulada */
+    font-family: Verdana; /* Tipo de fonte Verdana */
+    color: #F2F2F2; /* Cor do texto branca */
+    margin: auto; /* Margens automáticas para centralizar */
+}
